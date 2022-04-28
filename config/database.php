@@ -80,7 +80,7 @@ return [
         ],
         'mongodb' => [
             'driver' => 'mongodb',
-            'dsn' => env('DB_URI', 'mongodb+srv://dev1001:JQgHjULgyI6msRIu@blogapi.i21lx.mongodb.net/blogs?retryWrites=true&w=majority'),
+            'dsn' => env('DB_URI', ["Your Mongo URI"]),
             'database' => 'blogs',],
          
 
